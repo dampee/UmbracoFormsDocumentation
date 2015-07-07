@@ -19,8 +19,6 @@ The Forms api contains a collection of classes that the provider model automatic
 	}
 When you implement this class you get two methods added. One of them is Execute which performs the execution of the workflow and the other is a method which validates the workflow settings, we will get back to these settings later on.
 
-Even though we have the class inheritance in place, we still need to add a bit of default information.
-
 ##Setting up basic type information
 Even though we have the class inheritance in place, we still need to add a bit of default information. This information is added in the class's empty constructor like this:
 	
